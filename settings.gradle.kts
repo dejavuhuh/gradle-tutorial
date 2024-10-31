@@ -29,3 +29,4 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 dependencyManagement {
     version = "0.0.2"
 }
+
