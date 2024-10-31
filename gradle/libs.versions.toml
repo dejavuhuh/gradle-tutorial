@@ -5,11 +5,20 @@
 commons-math3 = "3.6.1"
 guava = "33.2.1-jre"
 junit-jupiter-engine = "5.10.3"
+version-catalog-generator = "2.1.1"
+spring = "3.2.0"
+dagp = "2.1.1"
+libVersion = "$libVersion"
 
 [libraries]
+lib-a = { module = "com.example:lib-a", version.ref = "libVersion" }
+lib-b = { module = "com.example:lib-b", version.ref = "libVersion" }
 commons-math3 = { module = "org.apache.commons:commons-math3", version.ref = "commons-math3" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
+version-catalog-generator = { module = "dev.aga.gradle.plugin:plugin", version.ref = "version-catalog-generator" }
+springBootDependencies = { group = "org.springframework.boot", name = "spring-boot-dependencies", version.ref = "spring" }
+dagp = { module = "dev.aga.gradle.plugin:plugin", version.ref = "dagp" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.0" }

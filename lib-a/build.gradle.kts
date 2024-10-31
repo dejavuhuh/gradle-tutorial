@@ -17,7 +17,6 @@ plugins {
 dependencies {
     // Use the Kotlin JUnit 5 integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
-
     // Use the JUnit 5 integration.
     testImplementation(libs.junit.jupiter.engine)
 
@@ -28,6 +27,9 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation(libs.guava)
+    implementation(springLibs.spring.springBootStarterWeb)
+    implementation(commonLibs.commons.math3)
+    implementation(commonLibs.lib.b)
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -41,3 +43,4 @@ tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+

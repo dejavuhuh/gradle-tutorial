@@ -1,7 +1,7 @@
 import com.moandjiezana.toml.Toml
 
 plugins {
-    id("publish-conventions")
+    `maven-publish`
 }
 
 version = run {
@@ -11,12 +11,8 @@ version = run {
 }
 
 publishing {
-    publications {
-        create<MavenPublication>("mavenJava") {
-            plugins.withType<JavaPlugin> {
-                from(components["java"])
-            }
-        }
+    repositories {
+        mavenLocal()
     }
 }
 
