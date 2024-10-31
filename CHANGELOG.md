@@ -1,3 +1,9 @@
+## 0.2.0 (2024-10-31)
+
+### Feat
+
+- **version-catalog**: 支持自动替换 libs.versions.toml 中的版本号
+
 ## 0.1.0 (2024-10-30)
 
 ### Feat
