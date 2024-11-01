@@ -5,6 +5,8 @@
 
 ### feat
 
+* [f7d2f] feat(ci): a ci feat (wuyue7570)
+
 * [37da8] feat(ci): a ci feat (wuyue7570)
 
 * [9f019] feat(ci): 集成 nyx (wuyue7570)
