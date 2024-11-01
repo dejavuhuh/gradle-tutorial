@@ -45,7 +45,7 @@ nyx {
                 gitTag = "true"
                 gitTagForce = "true"
                 gitTagMessage = "{{#fileContent}}CHANGELOG.md{{/fileContent}}"
-                gitTagNames = listOf("0.5.0")
+                gitTagNames = listOf("{{version}}")
             }
         }
     }
