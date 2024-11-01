@@ -18,7 +18,7 @@ pluginManagement {
 plugins {
     // Apply the foojay-resolver plugin to allow automatic download of JDKs
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
-    id("com.example.lib-bom-plugin") version "0.0.2"
+    id("com.example.lib-bom-plugin") version "0.2.1"
 }
 
 rootProject.name = "gradle-tutorial"
