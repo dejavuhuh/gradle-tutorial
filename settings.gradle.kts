@@ -41,7 +41,7 @@ nyx {
         items {
             create("mainline") {
                 gitCommit = "true"
-                description = "{{#fileContent}}build/CHANGELOG.md{{/fileContent}}"
+                description = "{{#fileContent}}CHANGELOG.md{{/fileContent}}"
                 publish = "true"
                 gitTag = "true"
             }
