@@ -34,7 +34,7 @@ dependencyManagement {
 nyx {
     preset = "simple"
     changelog {
-        path = "build/CHANGELOG.md"
+        path = "CHANGELOG.md"
     }
     releaseTypes {
         publicationServices = listOf("github")
