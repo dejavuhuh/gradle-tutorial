@@ -43,6 +43,7 @@ nyx {
                 gitCommit = "true"
                 description = "{{#fileContent}}CHANGELOG.md{{/fileContent}}"
                 gitTag = "true"
+                gitTagForce = "true"
             }
         }
     }
