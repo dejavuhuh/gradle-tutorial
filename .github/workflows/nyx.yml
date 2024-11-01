@@ -25,3 +25,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           command: publish
+
