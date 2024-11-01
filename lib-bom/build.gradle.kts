@@ -1,5 +1,4 @@
 import kotlin.io.path.createTempFile
-import kotlin.io.path.writeText
 
 plugins {
     `version-catalog`
