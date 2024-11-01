@@ -42,7 +42,6 @@ nyx {
             create("mainline") {
                 gitCommit = "true"
                 description = "{{#fileContent}}CHANGELOG.md{{/fileContent}}"
-                publish = "true"
                 gitTag = "true"
             }
         }
