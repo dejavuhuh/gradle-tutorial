@@ -1,11 +1,9 @@
 # Changelog
 
 
-## 0.4.0 (2024-11-01)
+## 0.5.0 (2024-11-01)
 
 ### feat
 
-* [d3360] feat(ci): a ci feat (wuyue7570)
-
-* [4315c] feat(ci): a ci feat (wuyue7570)
+* [5b7fc] feat(ci): a ci feat (wuyue7570)
 
